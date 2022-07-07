@@ -3,4 +3,4 @@
 .DS_Store
 
 # Sensitive infomation
-/microcontroller/arduino_secrets.h
+/microcontroller/main/arduino_secrets.h
