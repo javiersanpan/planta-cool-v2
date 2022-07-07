@@ -1,0 +1,6 @@
+#define SECRET_SSID ""
+#define SECRET_WIFIPASSWORD ""
+
+#define SECRET_API_KEY ""
+#define SECRET_FIREBASTE_HOST ""
+#define SECRET_FIREBASE_AUTH ""
