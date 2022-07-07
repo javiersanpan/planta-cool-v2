@@ -1,6 +1,6 @@
 # Microcontroller code
 
-This code is made for the ESP8266 microcontroller. It has been tested, compiled and implemented using the Arduino IDE which you can download <a>here<a href="https://www.arduino.cc/en/software">.
+This code is made for the ESP8266 microcontroller. It has been tested, compiled and implemented using the Arduino IDE which you can download <a href="https://www.arduino.cc/en/software">here</a>.
 
 ## Sensitive data
 
