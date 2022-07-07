@@ -1,0 +1,6 @@
+# System
+.vscode
+.DS_Store
+
+# Sensitive infomation
+/microcontroller/arduino_secrets.h
