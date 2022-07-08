@@ -77,7 +77,7 @@ void loop() {
     Firebase.setInt(firebaseData, ID + "/tank", true);
   } else {
     // Print water state to serial monitor and set remote database state as false
-    Serial.println("No hay agua");
+    Serial.println("The tank is empty");
     Serial.println();
     Firebase.setInt(firebaseData, ID + "/tank", false);
   }
