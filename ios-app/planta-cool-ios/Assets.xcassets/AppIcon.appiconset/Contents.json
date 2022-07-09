@@ -21,25 +21,21 @@
       "size" : "29x29"
     },
     {
-      "filename" : "WhatsApp Image 2021-12-03 at 2.59.36 PM.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "40x40"
     },
     {
-      "filename" : "WhatsApp Image 2021-12-03 at 3.00.18 PM.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "40x40"
     },
     {
-      "filename" : "WhatsApp Image 2021-12-03 at 3.02.34 PM.jpeg",
       "idiom" : "iphone",
       "scale" : "2x",
       "size" : "60x60"
     },
     {
-      "filename" : "WhatsApp Image 2021-12-03 at 3.02.01 PM.jpeg",
       "idiom" : "iphone",
       "scale" : "3x",
       "size" : "60x60"
@@ -73,11 +69,6 @@
       "idiom" : "ipad",
       "scale" : "2x",
       "size" : "40x40"
-    },
-    {
-      "idiom" : "ipad",
-      "scale" : "1x",
-      "size" : "76x76"
     },
     {
       "idiom" : "ipad",
@@ -90,7 +81,6 @@
       "size" : "83.5x83.5"
     },
     {
-      "filename" : "WhatsApp Image 2021-12-03 at 3.04.02 PM.jpeg",
       "idiom" : "ios-marketing",
       "scale" : "1x",
       "size" : "1024x1024"

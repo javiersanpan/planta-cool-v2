@@ -1,1 +1,1 @@
-# Planta Cool iOS APP
+#Planta cool iOS App

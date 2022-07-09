@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  planta-cool-ios
 //
-//  Created by Javier on 02/12/21.
+//  Created by Javier on 9/7/22.
 //
 
 import UIKit

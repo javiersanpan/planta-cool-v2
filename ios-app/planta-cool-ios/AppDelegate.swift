@@ -2,11 +2,10 @@
 //  AppDelegate.swift
 //  planta-cool-ios
 //
-//  Created by Javier on 02/12/21.
+//  Created by Javier on 9/7/22.
 //
 
 import UIKit
-import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        FirebaseApp.configure()
         // Override point for customization after application launch.
         return true
     }
