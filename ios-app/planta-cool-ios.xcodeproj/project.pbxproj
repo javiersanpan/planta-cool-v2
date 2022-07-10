@@ -13,9 +13,12 @@
 		3B663E12287A4512006ABCA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B663E10287A4512006ABCA8 /* Main.storyboard */; };
 		3B663E14287A4517006ABCA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B663E13287A4517006ABCA8 /* Assets.xcassets */; };
 		3B663E17287A4517006ABCA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B663E15287A4517006ABCA8 /* LaunchScreen.storyboard */; };
+		3B663E1F287A4B28006ABCA8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B663E1E287A4B28006ABCA8 /* GoogleService-Info.plist */; };
+		6CC19111D0A56FB07482F8B7 /* Pods_planta_cool_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328C98F2120F0D066BF20964 /* Pods_planta_cool_ios.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		328C98F2120F0D066BF20964 /* Pods_planta_cool_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_planta_cool_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B663E07287A4512006ABCA8 /* planta-cool-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planta-cool-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B663E0A287A4512006ABCA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B663E0C287A4512006ABCA8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		3B663E13287A4517006ABCA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B663E16287A4517006ABCA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B663E18287A4517006ABCA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B663E1E287A4B28006ABCA8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D125428D5C5E7421B52CB1E5 /* Pods-planta-cool-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planta-cool-ios.debug.xcconfig"; path = "Target Support Files/Pods-planta-cool-ios/Pods-planta-cool-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		D83B4D2A5E97DD6CF1FDE574 /* Pods-planta-cool-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-planta-cool-ios.release.xcconfig"; path = "Target Support Files/Pods-planta-cool-ios/Pods-planta-cool-ios.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC19111D0A56FB07482F8B7 /* Pods_planta_cool_ios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01224BAEEBEA1F1BFD0912CA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D125428D5C5E7421B52CB1E5 /* Pods-planta-cool-ios.debug.xcconfig */,
+				D83B4D2A5E97DD6CF1FDE574 /* Pods-planta-cool-ios.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3B663DFE287A4512006ABCA8 = {
 			isa = PBXGroup;
 			children = (
 				3B663E09287A4512006ABCA8 /* planta-cool-ios */,
 				3B663E08287A4512006ABCA8 /* Products */,
+				01224BAEEBEA1F1BFD0912CA /* Pods */,
+				3FCD26B2B58962CBC6C87C47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +81,17 @@
 				3B663E13287A4517006ABCA8 /* Assets.xcassets */,
 				3B663E15287A4517006ABCA8 /* LaunchScreen.storyboard */,
 				3B663E18287A4517006ABCA8 /* Info.plist */,
+				3B663E1E287A4B28006ABCA8 /* GoogleService-Info.plist */,
 			);
 			path = "planta-cool-ios";
+			sourceTree = "<group>";
+		};
+		3FCD26B2B58962CBC6C87C47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				328C98F2120F0D066BF20964 /* Pods_planta_cool_ios.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B663E1B287A4517006ABCA8 /* Build configuration list for PBXNativeTarget "planta-cool-ios" */;
 			buildPhases = (
+				F0D7FD24010626A5D8FA1762 /* [CP] Check Pods Manifest.lock */,
 				3B663E03287A4512006ABCA8 /* Sources */,
 				3B663E04287A4512006ABCA8 /* Frameworks */,
 				3B663E05287A4512006ABCA8 /* Resources */,
+				31A8AE5CA916F38A3F0AE2AF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +155,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B663E17287A4517006ABCA8 /* LaunchScreen.storyboard in Resources */,
+				3B663E1F287A4B28006ABCA8 /* GoogleService-Info.plist in Resources */,
 				3B663E14287A4517006ABCA8 /* Assets.xcassets in Resources */,
 				3B663E12287A4512006ABCA8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		31A8AE5CA916F38A3F0AE2AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planta-cool-ios/Pods-planta-cool-ios-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-planta-cool-ios/Pods-planta-cool-ios-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-planta-cool-ios/Pods-planta-cool-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D7FD24010626A5D8FA1762 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-planta-cool-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B663E03287A4512006ABCA8 /* Sources */ = {
@@ -282,6 +354,7 @@
 		};
 		3B663E1C287A4517006ABCA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D125428D5C5E7421B52CB1E5 /* Pods-planta-cool-ios.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -289,6 +362,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "planta-cool-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Planta Cool";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -309,6 +383,7 @@
 		};
 		3B663E1D287A4517006ABCA8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D83B4D2A5E97DD6CF1FDE574 /* Pods-planta-cool-ios.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +391,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "planta-cool-ios/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Planta Cool";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
