@@ -15,20 +15,17 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-        
-        // FirebaseAnalytics event to check connection
-        Analytics.logEvent("InitScreen", parameters: ["message":"Firebase Integration successful"])
-        
         // Database test
-        let object: [String: Any] = [
-            "regar": 0 as NSObject,
-            "humedad": "detectando el ",
-            "tanque": "detectando..."
-        ]
-        database.child("test").setValue(object)
+        // Set regar to 0
+        /* let object: [String: Any] = [
+            "regar": 0 as Int,
+        ] */
+        database.child("test").updateChildValues(["regar": 0 as Int])
     }
 
-
+    @IBAction func regar(_ sender: UIButton) {
+        database.child("test").updateChildValues(["regar": 1 as Int])
+    }
+    
 }
 
