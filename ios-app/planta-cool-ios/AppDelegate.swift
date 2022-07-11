@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  planta-cool-ios
-//
-//  Created by Javier on 9/7/22.
-//
-
 import UIKit
 import FirebaseCore
 

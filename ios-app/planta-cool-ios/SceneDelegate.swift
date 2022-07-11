@@ -1,10 +1,3 @@
-//
-//  SceneDelegate.swift
-//  planta-cool-ios
-//
-//  Created by Javier on 9/7/22.
-//
-
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
