@@ -17,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="OgR-Fn-HuJ">
-                                <rect key="frame" x="90" y="659.66666666666663" width="196" height="44"/>
+                                <rect key="frame" x="90" y="656.33333333333337" width="210" height="47.333333333333371"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J0U-AN-Dlr">
-                                        <rect key="frame" x="0.0" y="0.0" width="196" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="210" height="47.333333333333336"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="J0U-AN-Dlr" secondAttribute="height" multiplier="107:24" id="DV4-S8-3gO"/>
                                         </constraints>
@@ -90,6 +90,7 @@
                     </view>
                     <connections>
                         <outlet property="humidityPercent" destination="AuL-Lv-UZU" id="zmq-zI-6W8"/>
+                        <outlet property="humidityPercentLabel" destination="AuL-Lv-UZU" id="LnL-G6-Px8"/>
                         <outlet property="tankStatusLabel" destination="LYM-Iq-HjO" id="azc-Ih-H3W"/>
                     </connections>
                 </viewController>
