@@ -16,14 +16,14 @@ class ViewController: UIViewController {
             guard let dbTEST = snapshot.value as? [String: Any] else { return }
         
         // Set humidity percent from firebase value
-            //var humidityValueFromDB: AnyObject
-            //humidityValueFromDB = dbTEST["humidity"] as AnyObject
-            self.humidityPercentLabel.text = "\(dbTEST["humidity"] as AnyObject)%"
+            var humidityValueFromDB: AnyObject
+            humidityValueFromDB = dbTEST["humidity"] as AnyObject
+            self.humidityPercentLabel.text = "\(humidityValueFromDB)%"
             
         // Set tank status from firebase value
-            //var tankStatusFromDB: AnyObject
-            // tankStatusFromDB = dbTEST["tank"] as AnyObject
-            self.tankStatusLabel.text = "\(dbTEST["tank"] as AnyObject)"
+            var tankStatusFromDB: AnyObject
+            tankStatusFromDB = dbTEST["tank"] as AnyObject
+            self.tankStatusLabel.text = "\(tankStatusFromDB)"
             
         })
     }
