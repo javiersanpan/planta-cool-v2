@@ -4,4 +4,4 @@
 
 # Sensitive infomation
 /microcontroller/main/arduino_secrets.h
-ios-app/planta-cool-ios/GoogleService-Info.plist
+ios-app/planta-cool-ios-v2/GoogleService-Info.plist
