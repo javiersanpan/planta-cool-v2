@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseDatabase
 
 @main
 struct planta_cool_ios_v2App: App {

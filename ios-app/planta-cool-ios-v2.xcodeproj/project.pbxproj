@@ -12,6 +12,14 @@
 		3BCDA6012880BD6600191591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA6002880BD6600191591 /* Assets.xcassets */; };
 		3BCDA6042880BD6600191591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA6032880BD6600191591 /* Preview Assets.xcassets */; };
 		3BF262972880BDD300E2626B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BF262962880BDD300E2626B /* GoogleService-Info.plist */; };
+		3BF2629A2880BFFF00E2626B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262992880BFFF00E2626B /* FirebaseAnalytics */; };
+		3BF2629C2880BFFF00E2626B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */; };
+		3BF2629E2880BFFF00E2626B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629D2880BFFF00E2626B /* FirebaseAuth */; };
+		3BF262A02880BFFF00E2626B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629F2880BFFF00E2626B /* FirebaseDatabase */; };
+		3BF262A22880C00000E2626B /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */; };
+		3BF262A42880C00000E2626B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A32880C00000E2626B /* FirebaseFirestore */; };
+		3BF262A62880C00000E2626B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */; };
+		3BF262A82880C00000E2626B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A72880C00000E2626B /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +36,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BF262A22880C00000E2626B /* FirebaseDatabaseSwift in Frameworks */,
+				3BF2629C2880BFFF00E2626B /* FirebaseAnalyticsSwift in Frameworks */,
+				3BF2629E2880BFFF00E2626B /* FirebaseAuth in Frameworks */,
+				3BF262A62880C00000E2626B /* FirebaseFirestoreSwift in Frameworks */,
+				3BF262A02880BFFF00E2626B /* FirebaseDatabase in Frameworks */,
+				3BF262A82880C00000E2626B /* FirebaseStorage in Frameworks */,
+				3BF2629A2880BFFF00E2626B /* FirebaseAnalytics in Frameworks */,
+				3BF262A42880C00000E2626B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +102,16 @@
 			dependencies = (
 			);
 			name = "planta-cool-ios-v2";
+			packageProductDependencies = (
+				3BF262992880BFFF00E2626B /* FirebaseAnalytics */,
+				3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */,
+				3BF2629D2880BFFF00E2626B /* FirebaseAuth */,
+				3BF2629F2880BFFF00E2626B /* FirebaseDatabase */,
+				3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */,
+				3BF262A32880C00000E2626B /* FirebaseFirestore */,
+				3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */,
+				3BF262A72880C00000E2626B /* FirebaseStorage */,
+			);
 			productName = "planta-cool-ios-v2";
 			productReference = 3BCDA5F92880BD6400191591 /* planta-cool-ios-v2.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +140,9 @@
 				Base,
 			);
 			mainGroup = 3BCDA5F02880BD6400191591;
+			packageReferences = (
+				3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 3BCDA5FA2880BD6400191591 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -343,6 +372,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BF262992880BFFF00E2626B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		3BF2629D2880BFFF00E2626B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3BF2629F2880BFFF00E2626B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3BF262A32880C00000E2626B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3BF262A72880C00000E2626B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3BCDA5F12880BD6400191591 /* Project object */;
 }
