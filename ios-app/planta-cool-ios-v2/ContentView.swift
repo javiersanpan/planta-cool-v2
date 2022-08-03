@@ -2,17 +2,19 @@ import SwiftUI
 
 struct ContentView: View {
     
-    init() {
-        for fontFamily in UIFont.familyNames {
-            for font in UIFont.fontNames(forFamilyName: fontFamily) {
-                print("-- \(font)")
+    var body: some View {
+
+        NavigationView{
+            VStack{
+            }
+            .toolbar {
+                ToolbarItem(placement: .principal) {
+                    Text("YOUR PLANTS")
+                        .font(Font.headerTitle)
+                }
             }
         }
-    }
-    
-    var body: some View {
-        Text("hola")
-            .padding()
+
     }
 }
 
