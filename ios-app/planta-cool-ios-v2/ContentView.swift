@@ -1,15 +1,17 @@
-//
-//  ContentView.swift
-//  planta-cool-ios-v2
-//
-//  Created by Javier on 14/07/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    
+    init() {
+        for fontFamily in UIFont.familyNames {
+            for font in UIFont.fontNames(forFamilyName: fontFamily) {
+                print("-- \(font)")
+            }
+        }
+    }
+    
     var body: some View {
-        Text("Hello, world!")
+        Text("hola")
             .padding()
     }
 }

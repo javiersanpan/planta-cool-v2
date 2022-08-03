@@ -7,131 +7,121 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3BCDA5FD2880BD6500191591 /* planta_cool_ios_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDA5FC2880BD6500191591 /* planta_cool_ios_v2App.swift */; };
-		3BCDA5FF2880BD6500191591 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCDA5FE2880BD6500191591 /* ContentView.swift */; };
-		3BCDA6012880BD6600191591 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA6002880BD6600191591 /* Assets.xcassets */; };
-		3BCDA6042880BD6600191591 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BCDA6032880BD6600191591 /* Preview Assets.xcassets */; };
-		3BF262972880BDD300E2626B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BF262962880BDD300E2626B /* GoogleService-Info.plist */; };
-		3BF2629A2880BFFF00E2626B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262992880BFFF00E2626B /* FirebaseAnalytics */; };
-		3BF2629C2880BFFF00E2626B /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */; };
-		3BF2629E2880BFFF00E2626B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629D2880BFFF00E2626B /* FirebaseAuth */; };
-		3BF262A02880BFFF00E2626B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF2629F2880BFFF00E2626B /* FirebaseDatabase */; };
-		3BF262A22880C00000E2626B /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */; };
-		3BF262A42880C00000E2626B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A32880C00000E2626B /* FirebaseFirestore */; };
-		3BF262A62880C00000E2626B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */; };
-		3BF262A82880C00000E2626B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BF262A72880C00000E2626B /* FirebaseStorage */; };
+		3BA934CF289AFE9E007EBD3A /* planta_cool_ios_v2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA934CE289AFE9E007EBD3A /* planta_cool_ios_v2App.swift */; };
+		3BA934D1289AFE9E007EBD3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA934D0289AFE9E007EBD3A /* ContentView.swift */; };
+		3BA934D3289AFE9F007EBD3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA934D2289AFE9F007EBD3A /* Assets.xcassets */; };
+		3BA934D6289AFE9F007EBD3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BA934D5289AFE9F007EBD3A /* Preview Assets.xcassets */; };
+		3BA934E1289B0FF6007EBD3A /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA934E0289B0FF6007EBD3A /* FontStyles.swift */; };
+		3BA934E5289B1276007EBD3A /* FoundersGroteskCondensed.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3BA934E3289B1276007EBD3A /* FoundersGroteskCondensed.ttc */; };
+		3BA934E6289B1276007EBD3A /* FoundersGrotesk.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 3BA934E4289B1276007EBD3A /* FoundersGrotesk.ttc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3BCDA5F92880BD6400191591 /* planta-cool-ios-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planta-cool-ios-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3BCDA5FC2880BD6500191591 /* planta_cool_ios_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planta_cool_ios_v2App.swift; sourceTree = "<group>"; };
-		3BCDA5FE2880BD6500191591 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3BCDA6002880BD6600191591 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3BCDA6032880BD6600191591 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		3BF262962880BDD300E2626B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BA934CB289AFE9E007EBD3A /* planta-cool-ios-v2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "planta-cool-ios-v2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BA934CE289AFE9E007EBD3A /* planta_cool_ios_v2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = planta_cool_ios_v2App.swift; sourceTree = "<group>"; };
+		3BA934D0289AFE9E007EBD3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BA934D2289AFE9F007EBD3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BA934D5289AFE9F007EBD3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BA934E0289B0FF6007EBD3A /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		3BA934E3289B1276007EBD3A /* FoundersGroteskCondensed.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoundersGroteskCondensed.ttc; sourceTree = "<group>"; };
+		3BA934E4289B1276007EBD3A /* FoundersGrotesk.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoundersGrotesk.ttc; sourceTree = "<group>"; };
+		3BA934E7289B12BD007EBD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3BCDA5F62880BD6400191591 /* Frameworks */ = {
+		3BA934C8289AFE9E007EBD3A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BF262A22880C00000E2626B /* FirebaseDatabaseSwift in Frameworks */,
-				3BF2629C2880BFFF00E2626B /* FirebaseAnalyticsSwift in Frameworks */,
-				3BF2629E2880BFFF00E2626B /* FirebaseAuth in Frameworks */,
-				3BF262A62880C00000E2626B /* FirebaseFirestoreSwift in Frameworks */,
-				3BF262A02880BFFF00E2626B /* FirebaseDatabase in Frameworks */,
-				3BF262A82880C00000E2626B /* FirebaseStorage in Frameworks */,
-				3BF2629A2880BFFF00E2626B /* FirebaseAnalytics in Frameworks */,
-				3BF262A42880C00000E2626B /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3BCDA5F02880BD6400191591 = {
+		3BA934C2289AFE9E007EBD3A = {
 			isa = PBXGroup;
 			children = (
-				3BCDA5FB2880BD6400191591 /* planta-cool-ios-v2 */,
-				3BCDA5FA2880BD6400191591 /* Products */,
+				3BA934CD289AFE9E007EBD3A /* planta-cool-ios-v2 */,
+				3BA934CC289AFE9E007EBD3A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3BCDA5FA2880BD6400191591 /* Products */ = {
+		3BA934CC289AFE9E007EBD3A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BCDA5F92880BD6400191591 /* planta-cool-ios-v2.app */,
+				3BA934CB289AFE9E007EBD3A /* planta-cool-ios-v2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3BCDA5FB2880BD6400191591 /* planta-cool-ios-v2 */ = {
+		3BA934CD289AFE9E007EBD3A /* planta-cool-ios-v2 */ = {
 			isa = PBXGroup;
 			children = (
-				3BCDA5FC2880BD6500191591 /* planta_cool_ios_v2App.swift */,
-				3BCDA5FE2880BD6500191591 /* ContentView.swift */,
-				3BCDA6002880BD6600191591 /* Assets.xcassets */,
-				3BF262962880BDD300E2626B /* GoogleService-Info.plist */,
-				3BCDA6022880BD6600191591 /* Preview Content */,
+				3BA934E7289B12BD007EBD3A /* Info.plist */,
+				3BA934CE289AFE9E007EBD3A /* planta_cool_ios_v2App.swift */,
+				3BA934D0289AFE9E007EBD3A /* ContentView.swift */,
+				3BA934D2289AFE9F007EBD3A /* Assets.xcassets */,
+				3BA934E2289B123B007EBD3A /* Fonts */,
+				3BA934D4289AFE9F007EBD3A /* Preview Content */,
+				3BA934E0289B0FF6007EBD3A /* FontStyles.swift */,
 			);
 			path = "planta-cool-ios-v2";
 			sourceTree = "<group>";
 		};
-		3BCDA6022880BD6600191591 /* Preview Content */ = {
+		3BA934D4289AFE9F007EBD3A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				3BCDA6032880BD6600191591 /* Preview Assets.xcassets */,
+				3BA934D5289AFE9F007EBD3A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BA934E2289B123B007EBD3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BA934E4289B1276007EBD3A /* FoundersGrotesk.ttc */,
+				3BA934E3289B1276007EBD3A /* FoundersGroteskCondensed.ttc */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3BCDA5F82880BD6400191591 /* planta-cool-ios-v2 */ = {
+		3BA934CA289AFE9E007EBD3A /* planta-cool-ios-v2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3BCDA6072880BD6600191591 /* Build configuration list for PBXNativeTarget "planta-cool-ios-v2" */;
+			buildConfigurationList = 3BA934D9289AFE9F007EBD3A /* Build configuration list for PBXNativeTarget "planta-cool-ios-v2" */;
 			buildPhases = (
-				3BCDA5F52880BD6400191591 /* Sources */,
-				3BCDA5F62880BD6400191591 /* Frameworks */,
-				3BCDA5F72880BD6400191591 /* Resources */,
+				3BA934C7289AFE9E007EBD3A /* Sources */,
+				3BA934C8289AFE9E007EBD3A /* Frameworks */,
+				3BA934C9289AFE9E007EBD3A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "planta-cool-ios-v2";
-			packageProductDependencies = (
-				3BF262992880BFFF00E2626B /* FirebaseAnalytics */,
-				3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */,
-				3BF2629D2880BFFF00E2626B /* FirebaseAuth */,
-				3BF2629F2880BFFF00E2626B /* FirebaseDatabase */,
-				3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */,
-				3BF262A32880C00000E2626B /* FirebaseFirestore */,
-				3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */,
-				3BF262A72880C00000E2626B /* FirebaseStorage */,
-			);
 			productName = "planta-cool-ios-v2";
-			productReference = 3BCDA5F92880BD6400191591 /* planta-cool-ios-v2.app */;
+			productReference = 3BA934CB289AFE9E007EBD3A /* planta-cool-ios-v2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3BCDA5F12880BD6400191591 /* Project object */ = {
+		3BA934C3289AFE9E007EBD3A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					3BCDA5F82880BD6400191591 = {
+					3BA934CA289AFE9E007EBD3A = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 3BCDA5F42880BD6400191591 /* Build configuration list for PBXProject "planta-cool-ios-v2" */;
+			buildConfigurationList = 3BA934C6289AFE9E007EBD3A /* Build configuration list for PBXProject "planta-cool-ios-v2" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -139,46 +129,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 3BCDA5F02880BD6400191591;
-			packageReferences = (
-				3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-			);
-			productRefGroup = 3BCDA5FA2880BD6400191591 /* Products */;
+			mainGroup = 3BA934C2289AFE9E007EBD3A;
+			productRefGroup = 3BA934CC289AFE9E007EBD3A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3BCDA5F82880BD6400191591 /* planta-cool-ios-v2 */,
+				3BA934CA289AFE9E007EBD3A /* planta-cool-ios-v2 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BCDA5F72880BD6400191591 /* Resources */ = {
+		3BA934C9289AFE9E007EBD3A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCDA6042880BD6600191591 /* Preview Assets.xcassets in Resources */,
-				3BCDA6012880BD6600191591 /* Assets.xcassets in Resources */,
-				3BF262972880BDD300E2626B /* GoogleService-Info.plist in Resources */,
+				3BA934D6289AFE9F007EBD3A /* Preview Assets.xcassets in Resources */,
+				3BA934E6289B1276007EBD3A /* FoundersGrotesk.ttc in Resources */,
+				3BA934D3289AFE9F007EBD3A /* Assets.xcassets in Resources */,
+				3BA934E5289B1276007EBD3A /* FoundersGroteskCondensed.ttc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3BCDA5F52880BD6400191591 /* Sources */ = {
+		3BA934C7289AFE9E007EBD3A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BCDA5FF2880BD6500191591 /* ContentView.swift in Sources */,
-				3BCDA5FD2880BD6500191591 /* planta_cool_ios_v2App.swift in Sources */,
+				3BA934D1289AFE9E007EBD3A /* ContentView.swift in Sources */,
+				3BA934CF289AFE9E007EBD3A /* planta_cool_ios_v2App.swift in Sources */,
+				3BA934E1289B0FF6007EBD3A /* FontStyles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		3BCDA6052880BD6600191591 /* Debug */ = {
+		3BA934D7289AFE9F007EBD3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -238,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		3BCDA6062880BD6600191591 /* Release */ = {
+		3BA934D8289AFE9F007EBD3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -292,7 +281,7 @@
 			};
 			name = Release;
 		};
-		3BCDA6082880BD6600191591 /* Debug */ = {
+		3BA934DA289AFE9F007EBD3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -300,9 +289,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"planta-cool-ios-v2/Preview Content\"";
-				DEVELOPMENT_TEAM = PU36V4858Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planta-cool-ios-v2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -321,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		3BCDA6092880BD6600191591 /* Release */ = {
+		3BA934DB289AFE9F007EBD3A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -329,9 +318,9 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"planta-cool-ios-v2/Preview Content\"";
-				DEVELOPMENT_TEAM = PU36V4858Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "planta-cool-ios-v2/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,79 +342,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3BCDA5F42880BD6400191591 /* Build configuration list for PBXProject "planta-cool-ios-v2" */ = {
+		3BA934C6289AFE9E007EBD3A /* Build configuration list for PBXProject "planta-cool-ios-v2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BCDA6052880BD6600191591 /* Debug */,
-				3BCDA6062880BD6600191591 /* Release */,
+				3BA934D7289AFE9F007EBD3A /* Debug */,
+				3BA934D8289AFE9F007EBD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3BCDA6072880BD6600191591 /* Build configuration list for PBXNativeTarget "planta-cool-ios-v2" */ = {
+		3BA934D9289AFE9F007EBD3A /* Build configuration list for PBXNativeTarget "planta-cool-ios-v2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3BCDA6082880BD6600191591 /* Debug */,
-				3BCDA6092880BD6600191591 /* Release */,
+				3BA934DA289AFE9F007EBD3A /* Debug */,
+				3BA934DB289AFE9F007EBD3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 9.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		3BF262992880BFFF00E2626B /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		3BF2629B2880BFFF00E2626B /* FirebaseAnalyticsSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalyticsSwift;
-		};
-		3BF2629D2880BFFF00E2626B /* FirebaseAuth */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAuth;
-		};
-		3BF2629F2880BFFF00E2626B /* FirebaseDatabase */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabase;
-		};
-		3BF262A12880C00000E2626B /* FirebaseDatabaseSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseDatabaseSwift;
-		};
-		3BF262A32880C00000E2626B /* FirebaseFirestore */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestore;
-		};
-		3BF262A52880C00000E2626B /* FirebaseFirestoreSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseFirestoreSwift;
-		};
-		3BF262A72880C00000E2626B /* FirebaseStorage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 3BF262982880BFFF00E2626B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseStorage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 3BCDA5F12880BD6400191591 /* Project object */;
+	rootObject = 3BA934C3289AFE9E007EBD3A /* Project object */;
 }
