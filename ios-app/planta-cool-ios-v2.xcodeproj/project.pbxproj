@@ -24,6 +24,7 @@
 		3BAE30A728BD420B006C8512 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3BAE30A628BD420B006C8512 /* FirebaseStorage */; };
 		3BAE30A928BD420B006C8512 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3BAE30A828BD420B006C8512 /* FirebaseStorageCombine-Community */; };
 		3BAE30AB28BD4259006C8512 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3BAE30AA28BD4259006C8512 /* GoogleService-Info.plist */; };
+		3BAE30AD28BD6513006C8512 /* DatabaseFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAE30AC28BD6513006C8512 /* DatabaseFunctions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		3BA934E4289B1276007EBD3A /* FoundersGrotesk.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = FoundersGrotesk.ttc; sourceTree = "<group>"; };
 		3BA934E7289B12BD007EBD3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		3BAE30AA28BD4259006C8512 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3BAE30AC28BD6513006C8512 /* DatabaseFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseFunctions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				3BAE30AA28BD4259006C8512 /* GoogleService-Info.plist */,
 				3BA934E7289B12BD007EBD3A /* Info.plist */,
 				3BA934CE289AFE9E007EBD3A /* planta_cool_ios_v2App.swift */,
+				3BAE30AC28BD6513006C8512 /* DatabaseFunctions.swift */,
 				3BA934D0289AFE9E007EBD3A /* ContentView.swift */,
 				3BA934D2289AFE9F007EBD3A /* Assets.xcassets */,
 				3BA934E2289B123B007EBD3A /* Fonts */,
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BAE30AD28BD6513006C8512 /* DatabaseFunctions.swift in Sources */,
 				3BA934D1289AFE9E007EBD3A /* ContentView.swift in Sources */,
 				3BA934CF289AFE9E007EBD3A /* planta_cool_ios_v2App.swift in Sources */,
 				3BA934E1289B0FF6007EBD3A /* FontStyles.swift in Sources */,

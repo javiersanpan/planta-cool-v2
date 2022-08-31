@@ -2,10 +2,11 @@ import SwiftUI
 import FirebaseCore
 
 class AppDelegate: NSObject, UIApplicationDelegate {
-  func application(_ application: UIApplication,
-                   didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+    
+  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
       
     FirebaseApp.configure()
+    
     return true
   }
 }
@@ -17,8 +18,14 @@ struct planta_cool_ios_v2App: App {
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
     var body: some Scene {
-        WindowGroup {
+
+        WindowGroup {   
             ContentView()
+            
+            
         }
     }
+    
+    private let decoder = JSONDecoder()
+    
 }
