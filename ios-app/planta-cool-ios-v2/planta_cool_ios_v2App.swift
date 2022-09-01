@@ -1,30 +1,37 @@
 import SwiftUI
+import UIKit
 import FirebaseCore
 
-class AppDelegate: NSObject, UIApplicationDelegate {
+@main
+class AppDelegate: UIResponder, UIApplicationDelegate {
     
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-      
-    FirebaseApp.configure()
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]?) -> Bool {
+        FirebaseApp.configure()
+        return true
+    }
     
-    return true
-  }
+    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
+        
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+    }
+
+}
+
+struct RootView: View {
+    var body: some View {
+        ContentView()
+    }
 }
 
 
-@main
+
+
+
 struct planta_cool_ios_v2App: App {
     
     @UIApplicationDelegateAdaptor(AppDelegate.self) var delegate
     
-    var body: some Scene {
-
-        WindowGroup {   
-            ContentView()
-            
-            
-        }
-    }
+    var body: some Scene { WindowGroup { RootView() }}
     
     private let decoder = JSONDecoder()
     

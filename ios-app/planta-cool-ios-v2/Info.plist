@@ -7,5 +7,17 @@
 		<string>FoundersGrotesk.ttc</string>
 		<string>FoundersGroteskCondensed.ttc</string>
 	</array>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+		<key>UISceneConfigurations</key>
+		<dict>
+			<key>Delegate Class Name</key>
+			<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+			<key>Configuration Name</key>
+			<string>Default Configuration</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

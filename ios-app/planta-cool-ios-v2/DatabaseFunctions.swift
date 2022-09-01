@@ -8,6 +8,7 @@ func getValuesFromDB(onSuccess : @escaping () -> Void) {
     ref.observe(.value, with: {(snapshot) in
         
         if let dictionary = snapshot.value as? [String : Any] {
+            
             let humidity = dictionary["humidity"] as! String
             let tankStatus = dictionary["tank"] as! String
             
