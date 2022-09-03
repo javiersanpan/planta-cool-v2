@@ -3,7 +3,6 @@ import SwiftUI
 struct ContentView: View {
     
     var body: some View {
-        
 
         VStack {
             
@@ -15,7 +14,6 @@ struct ContentView: View {
                         //getValuesFromDB {
                         //Label("Humedad \(defaults.string(forKey: "humidityKey"))", systemImage: "drop.fill").padding()
                     //}
-                    
                     Label("Humedad", systemImage: "drop.fill").padding()
                 }
                 
